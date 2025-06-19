@@ -24,6 +24,7 @@ public class FiadosController {
 
     @GetMapping("/listar")
     public ArrayList<FiadosModel> obtenerFiados() {
+        System.out.println("Hola");
         return fiadosService.obtenerFiados();
     }
 
